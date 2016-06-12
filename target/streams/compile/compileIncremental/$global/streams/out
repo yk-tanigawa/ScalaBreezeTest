@@ -1,0 +1,77 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/Hello.scala, /work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/TestBreeze.scala, /work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/TestFileIO.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/Hello.scala, /work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/TestBreeze.scala, /work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/TestFileIO.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/Hello.scala, /work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/TestBreeze.scala, /work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/TestFileIO.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /work2/yt/scripts/20151031/ScalaBreezeTest/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
+[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.11.7  with arguments: [0m
+[0m[[0mdebug[0m] [0m	-nowarn[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_67a795f8[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/bio/package/java/jdk1.7.0_79/jre/lib/resources.jar:/bio/package/java/jdk1.7.0_79/jre/lib/rt.jar:/bio/package/java/jdk1.7.0_79/jre/lib/sunrsasign.jar:/bio/package/java/jdk1.7.0_79/jre/lib/jsse.jar:/bio/package/java/jdk1.7.0_79/jre/lib/jce.jar:/bio/package/java/jdk1.7.0_79/jre/lib/charsets.jar:/bio/package/java/jdk1.7.0_79/jre/lib/jfr.jar:/bio/package/java/jdk1.7.0_79/jre/classes:/home/yt/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/yt/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/xsbti/interface-0.13.8.jar:/home/yt/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.8/compiler-interface-src/compiler-interface-src-0.13.8.jar:/home/yt/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.7.jar:/home/yt/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/home/yt/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.4.jar:/home/yt/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/home/yt/.ivy2/cache/jline/jline/jars/jline-2.12.1.jar[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_69d8f31/xsbt/API.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_69d8f31/xsbt/Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_69d8f31/xsbt/Command.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_69d8f31/xsbt/Compat.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_69d8f31/xsbt/CompilerInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_69d8f31/xsbt/ConsoleInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_69d8f31/xsbt/DelegatingReporter.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_69d8f31/xsbt/Dependency.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_69d8f31/xsbt/ExtractAPI.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_69d8f31/xsbt/ExtractUsedNames.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_69d8f31/xsbt/LocateClassFile.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_69d8f31/xsbt/Log.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_69d8f31/xsbt/Message.scala[0m
+[0m[[0mdebug[0m] [0m	/tmp/sbt_69d8f31/xsbt/ScaladocInterface.scala[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 67d53566, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/bio/package/java/jdk1.7.0_79/jre/lib/resources.jar:/bio/package/java/jdk1.7.0_79/jre/lib/rt.jar:/bio/package/java/jdk1.7.0_79/jre/lib/sunrsasign.jar:/bio/package/java/jdk1.7.0_79/jre/lib/jsse.jar:/bio/package/java/jdk1.7.0_79/jre/lib/jce.jar:/bio/package/java/jdk1.7.0_79/jre/lib/charsets.jar:/bio/package/java/jdk1.7.0_79/jre/lib/jfr.jar:/bio/package/java/jdk1.7.0_79/jre/classes:/home/yt/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/work2/yt/scripts/20151031/ScalaBreezeTest/target/scala-2.11/classes:/home/yt/.ivy2/cache/org.scalanlp/breeze_2.10/jars/breeze_2.10-0.7.jar:/home/yt/.ivy2/cache/org.scalanlp/breeze-macros_2.10/jars/breeze-macros_2.10-0.3.jar:/home/yt/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.3.jar:/home/yt/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.2.jar:/home/yt/.ivy2/cache/com.github.fommil.netlib/core/jars/core-1.1.2.jar:/home/yt/.ivy2/cache/net.sourceforge.f2j/arpack_combined_all/jars/arpack_combined_all-0.1.jar:/home/yt/.ivy2/cache/net.sourceforge.f2j/arpack_combined_all/jars/arpack_combined_all-0.1-javadoc.jar:/home/yt/.ivy2/cache/net.sf.opencsv/opencsv/jars/opencsv-2.3.jar:/home/yt/.ivy2/cache/com.github.rwl/jtransforms/jars/jtransforms-2.4.0.jar:/home/yt/.ivy2/cache/junit/junit/jars/junit-4.8.2.jar:/home/yt/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.2.jar:/home/yt/.ivy2/cache/org.spire-math/spire_2.10/jars/spire_2.10-0.7.1.jar:/home/yt/.ivy2/cache/org.spire-math/spire-macros_2.10/jars/spire-macros_2.10-0.7.1.jar:/home/yt/.ivy2/cache/com.typesafe/scalalogging-slf4j_2.10/jars/scalalogging-slf4j_2.10-1.0.1.jar:/home/yt/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.2.jar:/home/yt/.ivy2/cache/org.scalanlp/breeze-natives_2.10/jars/breeze-natives_2.10-0.7.jar:/home/yt/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/jars/netlib-native_ref-osx-x86_64-1.1-natives.jar:/home/yt/.ivy2/cache/com.github.fommil.netlib/native_ref-java/jars/native_ref-java-1.1.jar:/home/yt/.ivy2/cache/com.github.fommil/jniloader/jars/jniloader-1.1.jar:/home/yt/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/jars/netlib-native_ref-linux-x86_64-1.1-natives.jar:/home/yt/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-i686/jars/netlib-native_ref-linux-i686-1.1-natives.jar:/home/yt/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-x86_64/jars/netlib-native_ref-win-x86_64-1.1-natives.jar:/home/yt/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-win-i686/jars/netlib-native_ref-win-i686-1.1-natives.jar:/home/yt/.ivy2/cache/com.github.fommil.netlib/netlib-native_ref-linux-armhf/jars/netlib-native_ref-linux-armhf-1.1-natives.jar:/home/yt/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-osx-x86_64/jars/netlib-native_system-osx-x86_64-1.1-natives.jar:/home/yt/.ivy2/cache/com.github.fommil.netlib/native_system-java/jars/native_system-java-1.1.jar:/home/yt/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-x86_64/jars/netlib-native_system-linux-x86_64-1.1-natives.jar:/home/yt/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-i686/jars/netlib-native_system-linux-i686-1.1-natives.jar:/home/yt/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-linux-armhf/jars/netlib-native_system-linux-armhf-1.1-natives.jar:/home/yt/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-x86_64/jars/netlib-native_system-win-x86_64-1.1-natives.jar:/home/yt/.ivy2/cache/com.github.fommil.netlib/netlib-native_system-win-i686/jars/netlib-native_system-win-i686-1.1-natives.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 20.861992321 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/Hello.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/Hello.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/Hello.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/Hello.scala)[0m
+[0m[[0mdebug[0m] [0mThe /work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/Hello.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, executionStart, f, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, b, ==, clone, Hello, toString, args, !=, getClass, ne, eq, delayedInit, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/TestBreeze.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/TestBreeze.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/TestBreeze.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/TestBreeze.scala)[0m
+[0m[[0mdebug[0m] [0mThe /work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/TestBreeze.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, TestBreeze, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, v4, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode, M1.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/Hello.scala: Set(TestBreeze)[0m
+[0m[[0mdebug[0m] [0mInvalidating /work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/TestFileIO.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/TestFileIO.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/TestFileIO.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/TestFileIO.scala)[0m
+[0m[[0mdebug[0m] [0mThe /work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/TestFileIO.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, s, wait, $asInstanceOf, equals, TestFileIO, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /work2/yt/scripts/20151031/ScalaBreezeTest/src/main/scala/Hello.scala: Set(TestFileIO)[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
